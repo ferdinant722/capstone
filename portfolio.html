@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Fedinant Shem</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Fedinant Shem</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/DSC_0832-fotor-2024041792740.jpg" alt="Fedinant Shem">
+      </div>
+      <div class="section__text">
+       <p class="section__text__p1">Hello, I'm</p>
+       <h1 class="tittle">Fedinant Shem</h1>
+       <p class="section__text__p1">Frontend Developer</p>
+      
+       <div class="btn-container">
+         <button class="btn btn-color-2"
+         onclick="window.open('./assets/my-cv.pdf')"
+         >Download Cv</button>
+
+         <button class="btn btn-color-1"onclick="window.open('https://www.shofco.org/')"
+        
+         >Contact Info</button>
+       </div>
+      
+      
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="linkedin profile"
+        class="icon" onclick="location.href='https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit'">
+  
+
+        <img src="./assets/github.png" alt="github profile"
+        class="icon" onclick="location.href='https://github.com'">
+    
+      </div>
+    </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">For more Info</p>
+      <h1 class="tittle">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/code.png" alt="My Profile" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="My Experience" class="icon"/>
+              <h3>Experience</h3>
+              <p>1year <br>Frontend Developer</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education" class="icon"/>
+              <h3>Education</h3>
+              <p>B.sc. <br>Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sapiente nemo quod, expedita laboriosam nulla accusamus omnis fuga repellat facere nisi. Dolore perferendis sapiente repellat error, necessitatibus minima nobis quis nemo exercitationem qui quam porro vero, harum tenetur deserunt fugiat enim quod accusamus? Asperiores blanditiis, commodi deleniti beatae quos rem?
+            </p>
+            
+          </div>
+          
+          <div class="arrow-container">
+            <img src="assets/arrow.png" alt="Arrow Icon" class="icon" id="scrollArrow">
+        </div>
+        
+     
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="skill">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers">
+            <h2 class="experience-sub-tittle">
+              Frontend Developer
+            </h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Qualified</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Qualified</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>JAVASCRIPT</h3>
+                  <p>Entrance Level</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>React</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>Ruby</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-containers">
+            <h2 class="experience-sub-tittle">
+              Backend Developer
+            </h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>PostgrelSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>Git</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>React</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                <div>
+                  <h3>Ruby</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+            
+          <!-- </div>
+          <img src="assets/arrow.png" alt="Arrow Icon" onclick="location.href='./#experience'" class="icon"/>
+        </div> -->
+        
+      </div>
+      
+
+    </section> 
+    <!-- <section class="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="section__text__p1">Projects</h1>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/project-1.png" alt="Proj 1" class="project-img"
+          />
+        </div> 
+        <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/project-2.png" alt="Proj 1" class="project-img"
+          />
+        </div> 
+        <div class="details-container color-container">
+         <div class="article-container">
+           <img src="assets/project-3.png" alt="Proj 1" class="project-img"
+           />
+          </div>  -->
+         <!-- <h2 class="experience-sub-tittle project-tittle">Project One</h2> 
+         <div class="btn-container">
+           <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            github
+           </button>
+           <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            Live Demo
+           </button>
+         </div>
+        </div> 
+      </div> -->
+  <!-- </section> --> 
+
+ <style>
+    /* Footer styles */
+    footer {
+        background-color: #7EBD01	;
+        color: #fff;
+        padding-right: 125px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+    }
+
+    footer nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    footer nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .footer-content p {
+      color: #fff;
+    }
+
+    .footer-form {
+        margin-left: auto;
+        display: flex;
+        flex-direction: column; /* Make form elements appear in a column */
+        align-items: flex-end; /* Align form elements to the right */
+    }
+
+    .footer-form form {
+        display: flex;
+        flex-direction: column; /* Make form elements appear in a column */
+        align-items: flex-end; /* Align form elements to the right */
+    }
+
+    .footer-form form input[type="text"],
+    .footer-form form select,
+    .footer-form form button {
+        margin-bottom: 10px; /* Add space between form elements */
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 100%; /* Make input boxes take full width */
+        box-sizing: border-box; /* Include padding and border in width calculation */
+    }
+
+    .footer-form form button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        width: auto; /* Reset width for button */
+        padding: 5px 20px; /* Add padding to button */
+    }
+   
+ </style>
+
+<body>
+<!-- Your existing content -->
+<!-- Navigation, sections, etc. -->
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Fedinant Shem. All rights reserved.</p>
+        <p>Contact: <a href="mailto:shemfedinant@gmail.com">shemfedinant@gmail.com</a></p>
+        <p>Phone: +254 706 631 872</p>
+        <nav>
+          <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <button id="manuButton">color</button>
+          </ul>
+      </nav>
+  
+      <!-- Footer element to change the background color of -->
+      <script>
+          const manuButton = document.getElementById("manuButton");
+          const footer = document.querySelector('footer');
+          function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for ( let i = 0; i < 6; i++){
+              color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+          }
+          manuButton.addEventListener("click", event => {
+              footer.style.backgroundColor = getRandomColor();
+          });
+      </script>
+        <div id="socials-container" style="float: left;">
+          <img src="./assets/linkedin.png" alt="linkedin profile"
+          class="icon" onclick="location.href='https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit'">
+          
+          <img src="./assets/github.png" alt="github profile"
+          class="icon" onclick="location.href='https://github.com'">
+          <img src="./assets/location icon clipart .png" alt="location"
+          class="icon" onclick="location.href='https://www.google.com/maps/place/PAG+Church/@-1.3141323,36.7814246,17z/data=!3m1!4b1!4m6!3m5!1s0x182f107f19d084df:0xdcaf37a90928e359!8m2!3d-1.3141377!4d36.7839995!16s%2Fg%2F1tcy1cyv?authuser=0&entry=ttu'">
+
+          
+        </div>
+        
+        
+      </div>
+
+    </div>
+    <div class="footer-form"> 
+      <form id="contact-form">
+          <input type="text" id="name" name="names" placeholder="Name" required>
+          <input type="text" id="location" name="location" placeholder="Location" required>
+          <select id="service" name="service" required>
+              <option value="select">Select</option>
+              <option value="programming">programming</option>
+              <option value="graphics">graphics</option>
+              <option value="webdev">webdev</option>
+          </select>
+          
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <button id="submitButton" type="submit">Submit</button>
+          <p id="message"></p>
+      </form> 
+    </div>
+     
+  </div> 
+  
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+  
+      const select = document.getElementById('name'); 
+      alert(`succesfully submitted, ${select.value}`);
+
+      setTimeout(() => {
+        e.target.submit();
+      }, 0);
+  });
+  
+
+    { 
+      let name = document.getElementById('name').value;
+      let location = document.getElementById('location').value;
+      let service = document.getElementById('service').value;
+      let email = document.getElementById('email').value;
+      
+      let subject = 'Service Request';
+      let body = `Name: ${name}%0D%0ALocation: ${location}%0D%0AService: ${service}%0D%0AEmail: ${email}`;
+      
+      let mailtoLink = `mailto:shemfedinant@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      
+      window.location.href = mailtoLink;
+   };
+  </script>
+    <!-- <form action="" id="form">
+        <label for="myName">Name:</label>
+        <input type="text" name="names" id="myName">
+        <label for="myEmail">Email</label>
+        <input type="text" name="email" id="Email">
+        <label for="myMessage">Message</label>
+        <input type="text" name="message" id="Message">
+        <button id="btn" type="submit">Submit</button>
+      </form>  -->
+</footer>
+</body>
+</html>

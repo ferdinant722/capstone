@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+} 
+
+@media screen and (max-width: 468px) {
+    .about-container{
+       
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .details-containers {
+      flex: 1 1 100%; /* Stack the containers vertically on small screens */
+    }
+  }
